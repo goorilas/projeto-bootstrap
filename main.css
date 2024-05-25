@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.orcaimg {
+    width: 100px;
+    height: 75px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item h5 {
+    color: rgba(255, 255, 255, 0.771);
+    font-size: 900%;
+    margin-bottom: 80px;
+}
+
+.mgtop {
+    margin-top: 15px;
+}
+
+.mgbot {
+    margin-bottom: 15px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.col-4 {
+    padding: 10px;
+}
+
+.card-body {
+    display: flex;
+    margin: auto;
+}
+
+.card-img {
+    height: 250px;
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+}

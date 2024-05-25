@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrcaFilmes</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark text-light">
+            <div class="container-fluid">
+                <h1><strong>OrcaFilmes <img class="orcaimg" src="/img/orca1.png" alt="imagem de uma orca"></h1>
+                <button type="button" class="btn btn-dark">Login</button>
+                <button type="button" class="btn btn-dark">Cadastrar</button>
+            </div>
+        </nav>
+    </header>
+    <div class="carousel-img container-expand-lg">
+        <div id="carouselIndicadoresActive" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicadoresActive" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicadoresActive" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicadoresActive" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imgcarousel/animes.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ANIMES</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgcarousel/filmes.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>FILMES</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgcarousel/series.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SÉRIES</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicadoresActive"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicadoresActive"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container-fluid mgtop bg-dark">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <header class="card-header text-bg-dark">
+                    OrcaFilmes
+                </header>
+                <div class="card text-bg-dark">
+                    <img class="cardimg" src="./img/orca3.png" />
+                    <h4 class="card-title">Plano Normal</h4>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-dark" >Adiquirir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <header class="card-header text-bg-dark">
+                    OrcaFilmes
+                </header>
+                <div class="card text-bg-dark"> 
+                    <img class="cardimg" src="./img/orca1.png" />
+                    <h4 class="card-title">Plano Pluz</h4>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-dark">Adiquirir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <header class="card-header text-bg-dark">
+                    OrcaFilmes
+                </header>
+                <div class="card text-bg-dark"> 
+                    <img class="cardimg" src="./img/orca2.png" />
+                    <h4 class="card-title">Plano OrcaMax</h4>
+                    <div class="card-body">
+                        <button type="button" class="btn btn-dark">Adiquirir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-bg-dark">
+        <div class="row">
+            <div class="col-6">
+                <h2>Entre em contato</h2>
+                <form>
+                    <label class="form-label" for="nome">Seu Nome:</label>
+                    <input class="form-control" type="text" id="nome" />
+                    <label for="email" class="form-label">Seu Email:</label>
+                    <input id="email" type="email" class="form-control">
+                    <label for="mansagem" class="form-label">Sua Mensagem:</label>
+                    <textarea id="mensagem" class="form-control"></textarea>
+                    <button class="btn btn-success mgtop mgbot">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-secondary">
+        <h6> &copy; OrcaFilmes - Produzido por Weverson aluno EBC.</h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
